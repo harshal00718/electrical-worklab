@@ -566,4 +566,4 @@ def main():
                     
                     # Add calculated values if analysis was performed
                     if st.session_state.analysis_results:
-                        comp_analysis = next((ca for ca in st.session_state.analysis_results['component_analysis'] 
+                        comp_analysis = next(ca for ca in st.session_state.analysis_results['component_analysis']) 
